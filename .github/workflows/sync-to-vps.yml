@@ -33,4 +33,4 @@ jobs:
           ssh-keyscan wenchao.ren >> ~/.ssh/known_hosts
       - name: sync imgs
         run: |
-          rsync -av --delete docs root@wenchao.ren:/home/workspace/wenchao.ren/public
+          rsync -av --delete img root@wenchao.ren:/home/workspace/wenchao.ren/public
